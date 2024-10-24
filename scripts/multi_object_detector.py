@@ -7,8 +7,8 @@ from sensor_msgs.msg import LaserScan
 from geometry_msgs.msg import PointStamped, Point
 from obstacle_detector.msg import Obstacles, CircleObstacle
 
-thres_shortest = 2.0  # units: m
-thres_obj_gap = 0.15  # units: m
+thres_shortest = 5.0  # units: m
+thres_obj_gap = 0.40  # units: m
 obs_max_size = 30     # units : obstacle laser scan points
 obs_min_size = 15
 alpha = 0.1
